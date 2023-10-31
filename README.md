@@ -1,7 +1,7 @@
 # ConfusedLands-main
 Exercice Twin-Stick shooter
 
-Premier exercice sur Unity
+Premier exercice sur Unity (prototype)
 Espace pour tirer, E pour lancer des bombes sur les murs
 
 
