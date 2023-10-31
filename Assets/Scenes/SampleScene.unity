@@ -16415,7 +16415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 747568820}
   - component: {fileID: 747568819}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: OpenDoor02
   m_TagString: OpenDoor02
   m_Icon: {fileID: 0}
@@ -16437,7 +16437,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -44957,7 +44957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2026032133}
   - component: {fileID: 2026032132}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: OpenDoor01
   m_TagString: OpenDoor01
   m_Icon: {fileID: 0}
@@ -44979,7 +44979,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -45695,10 +45695,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 124231699}
     m_Modifications:
     - target: {fileID: 271462593251376784, guid: fcd410e679bd2464cbf866460b985686, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 60
-      objectReference: {fileID: 0}
-    - target: {fileID: 271462593251376784, guid: fcd410e679bd2464cbf866460b985686, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -45738,16 +45734,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3482366496389615040, guid: fcd410e679bd2464cbf866460b985686, type: 3}
-      propertyPath: explosionDoor
-      value: 
-      objectReference: {fileID: 1620174051331060, guid: e9604c1c3c1cc4041a862bcebcca8fce, type: 3}
     - target: {fileID: 8697055074118579634, guid: fcd410e679bd2464cbf866460b985686, type: 3}
       propertyPath: m_Name
-      value: Door
-      objectReference: {fileID: 0}
-    - target: {fileID: 8697055074118579634, guid: fcd410e679bd2464cbf866460b985686, type: 3}
-      propertyPath: m_TagString
       value: Door
       objectReference: {fileID: 0}
     m_RemovedComponents: []

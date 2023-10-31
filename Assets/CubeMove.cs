@@ -68,12 +68,12 @@ public class CubeMove : MonoBehaviour
         if (other.CompareTag("OpenDoor01"))
         {
             mainCamera01.SetActive(true);
-            mainCamera00.SetActive(false);
+            //mainCamera00.SetActive(false);
         }
         if (other.CompareTag("OpenDoor02"))
         {
             mainCamera02.SetActive(true);
-            mainCamera00.SetActive(false);
+            //mainCamera00.SetActive(false);
         }
     }
 }
